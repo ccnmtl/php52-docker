@@ -42,5 +42,5 @@ To run:
 
 First, make sure you have php running:
 
- docker run -it --rm -p 8880:8880 -v /Users/jonah/projects/php52-docker/www-ccnmtl/:/var/www/ccnmtl/ --link mysql:mysql php52
+```docker run -it --rm -p 8880:8880 -v /Users/jonah/projects/php52-docker/www-ccnmtl/:/var/www/ccnmtl/ --link mysql:mysql php52```
 
